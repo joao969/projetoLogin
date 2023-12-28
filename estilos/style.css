@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
     body, html{
-        background-color: silver;
+        background: silver url(../imagens/bolas.png);
         height: 100vh;
         width: 100vw;
+        height: 200px;
     }
     main{
         height: 100vh;
@@ -29,14 +30,16 @@
 
         transition: width 0.3, height 0.3;
     }
-
     section#Login > div#Imagem{
-        background: silver url(../imagens/bolas.png);
+        display: block;
+        background: white url(../imagens/bola2.webp)no-repeat;
         background-size: cover;
+        background-position: left ;
         height: 200px;
-
     }
+
     section#Login > div#Formulario{
+        display: block;
         left: 10%;
         
     }
