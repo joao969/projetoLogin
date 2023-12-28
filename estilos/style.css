@@ -29,6 +29,13 @@
 
         transition: width 0.3, height 0.3;
     }
+
+    section#Login > div#Imagem{
+        background: silver url(../imagens/bolas.png);
+        background-size: cover;
+        height: 200px;
+
+    }
     section#Login > div#Formulario{
         left: 10%;
         
