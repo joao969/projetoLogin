@@ -8,8 +8,8 @@
     body, html{
         background: silver url(../imagens/bolas.png);
         background-size: cover;
-        height: 100vh;
-        width: 100vw;
+        height: 50vh;
+        width: 40vw;
         height: 200px;
     }
     main{
